@@ -1,0 +1,204 @@
+/*
+Theme Name: Candy
+Version: 1.0
+Author: aether_
+Author URI: http://www.aetherdesign.net
+*/
+
+@import "reset.css";
+@import "layout.css";
+@import "elements.css";
+
+/* Table of Contents
+==================================================
+    #Common Styles
+    #Header
+    #Intro
+    #Screenshots
+    #Features
+    #Call-to-action
+    #Footer
+*/
+
+
+
+/* #Common Styles
+================================================== */
+
+
+	body { font-family: 'Lato', helvetica, arial, sans-serif; color: #093331; font-weight: 300; line-height: 150%; background: #462059;}
+	
+	small { font-size: 0.75em; }
+	
+	a, a:visited { color: #fff; text-decoration: none; }
+	a:hover { color: #fff; text-decoration: none; }
+	a:hover, a:active { outline: 0; }
+	input:focus { outline: none; }
+	p { font-size: 13px;}
+	#wrap { background: #ffffff; width: 980px; margin: 0 auto;}
+	
+/* #Header
+================================================== */
+
+	header {
+		width: 980px; margin: 0 auto;
+		height: 506px;
+		background: #181810 url('../images/slide0.jpg') no-repeat center center;
+	}
+	
+	/* Handheld */
+	
+	#handheld { position: relative; height: 506px; }
+	#handheld img { position: absolute; bottom: 0; }
+	
+	/* Hello */	
+	
+	#hello { padding-top: 125px; }
+	
+	#hello h1, #hello .button { margin-top: 25px; margin-bottom: 25px; }
+	
+	#hello .info {
+		float: left;
+		color: #fff;
+		font-size: 12px;
+		font-weight: 400;
+		padding-top: 15px;
+	}
+	
+	#hello .info a { border-bottom: 1px dotted #fff; }
+	#hello .info a:hover { border-bottom: none; }
+	
+	
+/* #Intro
+================================================== */
+
+	#intro { padding-top: 50px; padding-bottom: 50px; }
+
+	#quote { text-align: left; padding-right: 5px; }
+	
+	#quote h4 {
+		padding-left: 65px;
+		display: inline-block;
+		background: url('../images/logo-quote.png') no-repeat top left;
+	}
+	
+	#quote .meta { color: #555555; }
+	
+	#app-icon { border-left: 1px solid #757577; height: 200px;}
+	
+	#app-icon img { margin-left: 25px; float:right; padding-top: 25px; margin-right: 25px;}
+	
+
+/* #Screenshots
+================================================== */
+
+	#screenshots { padding-top: 50px; }
+	
+	#description { padding-top: 50px; }
+	#description h2 { padding-bottom: 50px; }
+	
+	
+/* #Features
+================================================== */
+
+	/*.specifications {
+		background: none repeat scroll 0 0 #462059;
+		margin-top: 25px;
+		color: #ffffff;
+		padding: 0.5em;
+    font-size: 15px;
+    font-weight: bold;
+    width: 180px;
+	}*/
+	
+	.iphone-big {
+		position: absolute;
+		margin-top: 50px;
+		margin-left: 250px;
+	
+	}
+
+	.lists { padding-top: 200px; }
+	.lists ul.list { padding-bottom: 50px; }	
+	
+	#features { padding-bottom: 50px; border-bottom: 1px solid #757577; }
+	.feature { padding-top: 50px; }
+	.feature h3 { padding-top: 30px; }
+	.feature p { padding-top: 15px; }
+	
+	.feature.left { text-align: right; }
+	
+	
+/* #Specifications
+================================================== */
+
+	#specifications { 
+			padding-bottom: 50px; 
+			padding-top: 50px;
+			background: none repeat scroll 0 0 #e5e5e5;
+			color: #5c5c5c;
+	}
+	#specifications .border { border-right: 1px solid #757577; padding-right: 10px; padding-left: 10px; height: 310px; }
+	#specifications h3 { padding-top: 30px; }
+	#specifications p { padding-top: 15px; font-size: 13px;}
+	
+
+	
+		
+/* #Devices
+================================================== */
+	
+	#devices { padding-top: 25px; padding-bottom: 50px;}
+	#devices .center { border-right: 1px solid #757577; border-left: 1px solid #757577; padding-left:10px; padding-right:10px; }
+	#devices h3 { padding-top: 30px; }
+	#devices p { padding: 35px 10px 10px 10px; text-align:center; }	
+		
+	
+	
+/* #call-to-action
+================================================== */
+
+	#call-to-action {
+		text-align: center;
+		margin-top: 225px;
+		background: url('../images/dash.png') repeat-y center;
+		padding-top: 100px;
+		padding-bottom: 55px;
+	}
+	
+	#call-to-action .lead {
+		background: #fff;
+		padding: 5px;
+		margin-bottom: 45px;
+		
+	}
+	
+	#call-to-action .lead .calling { font-size: 20px; }
+	
+	#call-to-action .button {
+		-webkit-box-shadow: inset 0px 1px 1px rgba(255,255,255,.7);
+		-moz-box-shadow: inset 0px 1px 1px rgba(255,255,255,.7);
+		box-shadow: inset 0px 1px 1px rgba(255,255,255,.7);
+	}
+	
+				
+ /* #Footer
+ ================================================== */
+ 
+ 	footer { width: 100%; padding-top: 50px; padding-bottom: 50px; color: #ffffff; }
+ 	
+ 	footer h6 { color: #ffffff; font-weight: bold;  }
+	footer p { font-size: 13px; color: #ffffff; }
+ 	footer a {
+ 		color: #b3c6c6!important;
+ 		font-weight: 400!important;
+ 	}
+ 	
+ 	#copyright img { margin-left: 10px; }
+ 	
+ 	#author { text-align: right; }
+ 	
+ 	#footer_widget_1 ul.sidebar_list li.widget {position: absolute; text-align: left; display: block; top:4px; left:0px; width:468px; }
+ 	#footer-social-icons a img { float:left; margin: 5px;} 
+ 	#buttons-social-icons { padding-top: 80px;} 
+ 	#author { padding-top: 120px;} 	 	
